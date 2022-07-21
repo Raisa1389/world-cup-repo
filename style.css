@@ -4,12 +4,14 @@
 /* base style */
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: antiquewhite;
 }
 
 /*banner descripton & image */
 .main1 {
     width: 80%;
     height: 80vh;
+    margin-left: 10%;
     color: white;
     background-color: black;
     box-shadow: 2px 2px 2px 2px solid black;
@@ -46,20 +48,21 @@ body {
 }
 
 .text {
-    font-size: 15px;
+    font-size: 25px;
     margin: 10px;
 }
 
 /*box descrtiption */
 .box-container {
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: 50px;
-    width: 300px;
+    width: 500px;
     height: 300px;
-    background-color: black;
-    border: 5px solid black;
+    background-color: blueviolet;
+    border: 5px solid blueviolet;
     border-radius: 15px;
     justify-content: center;
+    margin-left: 10%;
 }
 
 .box1 {
@@ -67,7 +70,7 @@ body {
     grid-template-rows: repeat(3, 1fr);
     width: 150px;
     height: 50px;
-    margin-left: 25%;
+    margin-left: 0%;
     margin-top: 5%;
     padding-top: 4%;
     font-size: medium;
@@ -81,7 +84,7 @@ body {
     grid-template-rows: repeat(3, 1fr);
     width: 150px;
     height: 50px;
-    margin-left: 25%;
+    margin-left: 0%;
     margin-bottom: 10%;
     margin-top: 10%;
     padding: 5%;
@@ -97,7 +100,7 @@ body {
     grid-template-rows: repeat(3, 1fr);
     width: 150px;
     height: 50px;
-    margin-left: 25%;
+    margin-left: 0%;
     padding: 5%;
     font-size: medium;
     font-weight: bold;
@@ -109,8 +112,10 @@ body {
 .matches {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 2%;
 
 }
+
 
 .match .match-banner img {
     width: 312px;
@@ -130,6 +135,9 @@ body {
     padding: 5px;
 }
 
+.main2 {
+    display: flex;
+}
 
 /*footer */
 footer {
@@ -137,6 +145,7 @@ footer {
     height: auto;
     width: 100vw;
     background-color: black;
+    margin-top: 10%;
 }
 
 .footer-content {
@@ -160,10 +169,10 @@ footer {
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: center;
     margin: 1rem 0 3rem 0;
     font-size: 1.1rem;
     text-decoration: none;
     color: white;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 8px;
 }
